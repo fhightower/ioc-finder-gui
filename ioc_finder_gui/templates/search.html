@@ -1,0 +1,14 @@
+\{\% extends "layout.html" \%\}
+
+\{\% block content \%\}
+    <form action="/search" method="GET">
+        <label>What would you like to accomplish?</label>
+        <input type="text" name="q" placeholder="Type a word or phrase describing what you are trying to accomplish">
+    </form>
+
+    <ul>
+    \{\% for result in results \%\}
+            <li>\{\{ result.name \}\}</li>
+    \{\% endfor \%\}
+    </ul>
+\{\% endblock \%\}

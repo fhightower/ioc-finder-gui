@@ -1,0 +1,47 @@
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>IOC Finder GUI</title>
+    <meta name="description" content="GUI for the indicator of compromise project.">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jgrowl/1.4.6/jquery.jgrowl.min.css">
+    <link rel="stylesheet" href="/static/ioc_finder_gui.css">
+
+    <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jgrowl/1.4.6/jquery.jgrowl.min.js"></script>
+</head>
+
+<body class="light">
+    <div class="top-bar blue">
+        <div class="top-bar-left">
+            <a class="blue" href="https://github.com/fhightower/ioc-finder-gui"><b>IOC Finder GUI</b></a> - GUI for the indicator of compromise project.
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="row">
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer class="large-12 dark">
+        Designed and written by <a href="https://hightower.space">Floyd Hightower</a>.
+
+        <span class="float-right">
+            View code or raise an issue on <a href="https://github.com/fhightower/ioc-finder-gui">Github</a>.
+        </span>
+    </footer>
+</body>

@@ -1,0 +1,64 @@
+body {
+    margin-bottom: 2em;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 2em;
+    width: 100%;
+    padding-top: 0.35em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+/* Styling for growl messages. */
+.success-growl {
+    background-color: #58b957;
+    font-size: 1.5em;
+}
+
+.warning-growl {
+    background-color: #f2ae43;
+    font-size: 1.5em;
+    color: black;
+}
+
+.failure-growl {
+    background-color: #db524b;
+    font-size: 1.5em;
+}
+/* End styling for growl messages. */
+
+a {
+    text-decoration: underline;
+    /*text-decoration-style: dotted;*/
+}
+
+.error {
+    color: red;
+}
+
+.light {
+    background-color: #f8f8f8;
+}
+
+.blue {
+    background-color: #0072CE;
+    color: #f8f8f8;
+}
+
+.blue:hover {
+    background-color: #0072CE;
+    color: #f8f8f8;
+}
+
+.dark {
+    background-color: #222222;
+    color: #f8f8f8;
+}
+
+.dark a {
+    color: #f8f8f8;
+}
