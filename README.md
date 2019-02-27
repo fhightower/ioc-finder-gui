@@ -2,9 +2,13 @@
 
 [![Build Status](https://travis-ci.org/fhightower/ioc-finder-gui.svg?branch=master)](https://travis-ci.org/fhightower/ioc-finder-gui)
 
-GUI for the indicator of compromise project.
+GUI for the indicator of compromise project: [http://ioc-finder.hightower.space](http://ioc-finder.hightower.space).
 
-## Quick Start
+## Credits
+
+This app was created with the flask template here: [https://gitlab.com/fhightower-templates/flask-template](https://gitlab.com/fhightower-templates/flask-template). Thanks to [cookiecutter](https://github.com/audreyr/cookiecutter), a project for creating project templates.
+
+## Running the App Locally
 
 After cloning the repo...
 
@@ -25,7 +29,3 @@ To test the app, run:
 ```
 make test
 ```
-
-## Credits
-
-This app was created with the flask template here: [https://gitlab.com/fhightower-templates/flask-template](https://gitlab.com/fhightower-templates/flask-template). Thanks to [cookiecutter](https://github.com/audreyr/cookiecutter), a project for creating project templates.
