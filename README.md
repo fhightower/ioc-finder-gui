@@ -25,3 +25,7 @@ To test the app, run:
 ```
 make test
 ```
+
+## Credits
+
+This app was created with the flask template here: [https://gitlab.com/fhightower-templates/flask-template](https://gitlab.com/fhightower-templates/flask-template). Thanks to [cookiecutter](https://github.com/audreyr/cookiecutter), a project for creating project templates.
