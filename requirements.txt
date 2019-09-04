@@ -1,4 +1,4 @@
 Flask
 gunicorn
 pytest
-ioc-finder==1.2.18
+ioc-finder==2.0.1
