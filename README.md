@@ -1,5 +1,9 @@
 # IOC Finder GUI
 
+**NOTE: This project is archived as we now have [interactive documentation](https://hightower.space/ioc-finder/) which you can use to test the `ioc-finder` package.**
+
+---
+
 [![Build Status](https://travis-ci.org/fhightower/ioc-finder-gui.svg?branch=master)](https://travis-ci.org/fhightower/ioc-finder-gui)
 
 GUI for the indicator of compromise project: [http://ioc-finder.hightower.space](http://ioc-finder.hightower.space).
